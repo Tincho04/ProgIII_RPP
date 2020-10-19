@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "email": "rrr@mail.com",
+        "pass": "3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2",
+        "tipo": "admin"
+    },
+    {
+        "id": 2,
+        "email": "userma@mail.com",
+        "pass": "3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2",
+        "tipo": "user"
+    },
+    {
+        "id": 3,
+        "email": "user@mail.com",
+        "pass": "3fb4053ac048ac5df513830006443ccbce60dc549e01b263aecb0a8f5de8ea0c5ba8dcf987e1b56c6e884ab4782629810c76369ed4449ef78a8c24dab5dc5493",
+        "tipo": "user"
+    },
+    {
+        "id": 4,
+        "email": "user789@mail.com",
+        "pass": "ca9879bd727ba3bd815f05fe6b9e4640c774b61cc8f141295542cefc1b7b8fc6e3daf3f656555cdec355894e7af48964e88994d960f41ba8f61f7a05d5ddbd07",
+        "tipo": "user"
+    },
+    {
+        "id": 5,
+        "email": "user123@hotmail.com",
+        "pass": "3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2",
+        "tipo": "user"
+    },
+    {
+        "id": 6,
+        "email": "user7229@mail.com",
+        "pass": "ca9879bd727ba3bd815f05fe6b9e4640c774b61cc8f141295542cefc1b7b8fc6e3daf3f656555cdec355894e7af48964e88994d960f41ba8f61f7a05d5ddbd07",
+        "tipo": "user"
+    },
+    {
+        "id": 7,
+        "email": "admin123@hotmail.com",
+        "pass": "3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2",
+        "tipo": "admin"
+    },
+    {
+        "id": 8,
+        "email": "admin456@hotmail.com",
+        "pass": "f6b07b6c1340e947b861def5f8b092d8ee710826dc56bd175bdc8f3a16b0b8acf853c64786a710dedf9d1524d61e32504e27d60de159af110bc3941490731578",
+        "tipo": "admin"
+    }
+]

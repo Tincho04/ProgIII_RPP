@@ -1,0 +1,19 @@
+[{
+        "patente": "KBT050",
+        "marca": "Renault",
+        "modelo": "19",
+        "precio": "20000"
+    },
+    {
+        "patente": "KBT009",
+        "marca": "Renault",
+        "modelo": "19",
+        "precio": "20000"
+    },
+    {
+        "patente": "KWG999",
+        "marca": "Tesla",
+        "modelo": "X",
+        "precio": "50000"
+    }
+]

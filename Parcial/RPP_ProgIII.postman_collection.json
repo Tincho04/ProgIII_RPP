@@ -1,0 +1,271 @@
+{
+	"info": {
+		"_postman_id": "278d546f-fdb5-4c90-8ea3-6d34aa801417",
+		"name": "RPP_ProgIII",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Punto 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "admin456@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/registro",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"registro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "admin456@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoicnJyQG1haWwuY29tIiwicm9sZSI6ImFkbWluIn19.yzIsrO1q1uT7RM9n_4IPF1F8Bb9OEea6lkapuNaQGFg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "patente",
+							"value": "KWG999",
+							"type": "text"
+						},
+						{
+							"key": "marca",
+							"value": "Tesla",
+							"type": "text"
+						},
+						{
+							"key": "modelo",
+							"value": "X",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "50000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/vehiculo?=",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"vehiculo"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoidXNlcjc4OUBtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIn19.c4EQ49Vjdlwb-nNh3NBkXYEdo3_BPRU65D-0srQWPaQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/patente/aaa123",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"patente",
+						"aaa123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoidXNlcjc4OUBtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIn19.c4EQ49Vjdlwb-nNh3NBkXYEdo3_BPRU65D-0srQWPaQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "40.000Km",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "9000",
+							"type": "text"
+						},
+						{
+							"key": "demora",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/servicio",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"servicio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 6",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoidXNlcjc4OUBtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIn19.c4EQ49Vjdlwb-nNh3NBkXYEdo3_BPRU65D-0srQWPaQ"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "patente",
+							"value": "KBT050",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/turno",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"turno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 7",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoiYWRtaW40NTZAaG90bWFpbC5jb20iLCJyb2xlIjoiYWRtaW4ifX0.ph4fm-fzd3KAQiJUp73o3sAs_YKY0Viz6dhA25O3czE"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/stats/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"stats",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
