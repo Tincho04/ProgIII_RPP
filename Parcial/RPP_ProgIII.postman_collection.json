@@ -111,7 +111,7 @@
 					]
 				},
 				"url": {
-					"raw": "{{url}}/vehiculo?=",
+					"raw": "{{url}}/vehiculo",
 					"host": [
 						"{{url}}"
 					],
